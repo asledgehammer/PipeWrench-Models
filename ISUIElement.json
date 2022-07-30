@@ -1,0 +1,353 @@
+{
+  "version": 1,
+  "classes": {
+    "ISUIElement": {
+      "fields": {
+        "anchorBottom": {
+          "types": [
+            "boolean"
+          ]
+        },
+        "anchorLeft": {
+          "types": [
+            "boolean"
+          ]
+        },
+        "anchorRight": {
+          "types": [
+            "boolean"
+          ]
+        },
+        "anchorTop": {
+          "types": [
+            "boolean"
+          ]
+        },
+        "children": {
+          "types": [
+            "{[id: string]: ISUIElement}"
+          ]
+        },
+        "controller": {
+          "doc": {
+            "lines": [
+              "Unknown Type"
+            ]
+          }
+        },
+        "dock": {
+          "types": [
+            "string"
+          ]
+        },
+        "enabled": {
+          "types": [
+            "boolean"
+          ]
+        },
+        "forceCursorVisible": {
+          "types": [
+            "boolean"
+          ]
+        },
+        "height": {
+          "doc": {
+            "lines": [
+              "The height of the UI element. (In pixels)"
+            ]
+          },
+          "types": [
+            "boolean"
+          ]
+        },
+        "hscroll": {
+          "doc": {
+            "lines": [
+              "Horizontal Scrollbar."
+            ]
+          },
+          "types": [
+            "ISScrollBar"
+          ]
+        },
+        "ID": {
+          "doc": {
+            "lines": [
+              "The internal ID of the UI element."
+            ]
+          },
+          "types": [
+            "number"
+          ]
+        },
+        "IDMax": {
+          "doc": {
+            "lines": [
+              "A counter for assigning to new UI elements."
+            ]
+          },
+          "types": [
+            "number"
+          ]
+        },
+        "javaObject": {
+          "doc": {
+            "lines": [
+              "The Java instance of the UI element.",
+              "",
+              "This is used to communicate with the game's UI engine."
+            ]
+          },
+          "types": [
+            "PipeWrench.UIElement"
+          ]
+        },
+        "joyfocus": {
+          "doc": {
+            "lines": [
+              "Some kind of Joypad data."
+            ]
+          }
+        },
+        "minimumHeight": {
+          "doc": {
+            "lines": [
+              "The minimum height of the UI element. (In pixels)"
+            ]
+          },
+          "types": [
+            "number"
+          ]
+        },
+        "minimumWidth": {
+          "doc": {
+            "lines": [
+              "The minimum width of the UI element. (In pixels)"
+            ]
+          },
+          "types": [
+            "number"
+          ]
+        },
+        "onMouseDoubleClick": {
+          "doc": {
+            "lines": [
+              "A callback function for double clicking."
+            ]
+          }
+        },
+        "removed": {
+          "doc": {
+            "lines": [
+              "True if the UI element is removed from the UI manager."
+            ]
+          },
+          "types": [
+            "boolean"
+          ]
+        },
+        "scrollwidth": {
+          "types": [
+            "number"
+          ]
+        },
+        "target": {
+          "doc": {
+            "lines": [
+              "Related to 'onMouseDoubleClick'."
+            ]
+          }
+        },
+        "vscroll": {
+          "doc": {
+            "lines": [
+              "Vertical Scrollbar."
+            ]
+          },
+          "types": [
+            "ISScrollBar"
+          ]
+        },
+        "wantKeyEvents": {
+          "types": [
+            "boolean"
+          ]
+        },
+        "width": {
+          "doc": {
+            "lines": [
+              "The width of the UI element. (In pixels)"
+            ]
+          },
+          "types": [
+            "number"
+          ]
+        },
+        "x": {
+          "doc": {
+            "lines": [
+              "The x coordinate on the screen. (In pixels)"
+            ]
+          },
+          "types": [
+            "number"
+          ]
+        },
+        "y": {
+          "doc": {
+            "lines": [
+              "The y coordinate on the screen. (In pixels)"
+            ]
+          },
+          "types": [
+            "number"
+          ]
+        }
+      },
+      "methods": {
+        "addChild": {
+          "doc": {
+            "lines": [
+              "Adds a child UI element to this UI element."
+            ]
+          },
+          "params": [
+            {
+              "doc": {
+                "lines": [
+                  "The UI element to add as a child to this UI element."
+                ]
+              },
+              "id": "otherElement",
+              "rename": "other",
+              "types": [
+                "ISUIElement"
+              ]
+            }
+          ],
+          "returns": {
+            "types": [
+              "void"
+            ],
+            "applyUnknownType": false
+          }
+        },
+        "addScrollBars": {
+          "doc": {
+            "lines": [
+              "Adds a vertical ISScrollBar to the UI element."
+            ]
+          },
+          "params": [
+            {
+              "doc": {
+                "lines": [
+                  "If true, a horizontal ISScrollBar is initialized as well."
+                ]
+              },
+              "id": "addHorizontal",
+              "types": [
+                "boolean"
+              ]
+            }
+          ],
+          "returns": {
+            "types": [
+              "void"
+            ],
+            "applyUnknownType": false
+          }
+        },
+        "addToUIManager": {
+          "doc": {
+            "lines": [
+              "Adds this UI element to the UI manager for the game.",
+              "",
+              "(NOTE: This means that this element is a root element with no parent)"
+            ]
+          },
+          "returns": {
+            "types": [
+              "void"
+            ],
+            "applyUnknownType": false
+          }
+        }
+      },
+      "_constructor_": {
+        "doc": {
+          "lines": [
+            "Example description."
+          ]
+        },
+        "params": [
+          {
+            "doc": {
+              "lines": [
+                "The x coordinate on the screen. (In pixels)"
+              ]
+            },
+            "id": "x",
+            "types": [
+              "number"
+            ]
+          },
+          {
+            "doc": {
+              "lines": [
+                "The y coordinate on the screen. (In pixels)"
+              ]
+            },
+            "id": "y",
+            "types": [
+              "number"
+            ]
+          },
+          {
+            "doc": {
+              "lines": [
+                "The width of the UI element. (In pixels)"
+              ]
+            },
+            "id": "width",
+            "types": [
+              "number"
+            ]
+          },
+          {
+            "doc": {
+              "lines": [
+                "The height of the UI element. (In pixels)"
+              ]
+            },
+            "id": "height",
+            "types": [
+              "number"
+            ]
+          }
+        ]
+      },
+      "doc": {
+        "lines": [
+          "**ISUIElement** is the base UI class in the Project Zomboid Lua codebase."
+        ],
+        "authors": [
+          "JabDoesThings"
+        ]
+      }
+    }
+  },
+  "tables": {
+    "luautils": {
+      "doc": {
+        "lines": [
+          "Example class description."
+        ],
+        "authors": [
+          "JabDoesThings",
+          "SomeOtherGuy"
+        ]
+      }
+    }
+  }
+}
