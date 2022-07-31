@@ -4,217 +4,173 @@
     "ISUIElement": {
       "fields": {
         "anchorBottom": {
-          "types": [
-            "boolean"
-          ]
+          "_return_": { "types": ["boolean"] }
         },
         "anchorLeft": {
-          "types": [
-            "boolean"
-          ]
+          "_return_": { "types": ["boolean"] }
         },
         "anchorRight": {
-          "types": [
-            "boolean"
-          ]
+          "_return_": { "types": ["boolean"] }
         },
         "anchorTop": {
-          "types": [
-            "boolean"
-          ]
+          "_return_": { "types": ["boolean"] }
         },
         "children": {
-          "types": [
-            "{[id: string]: ISUIElement}"
-          ]
+          "_return_": { "types": ["{[id: string]: ISUIElement}"] }
         },
         "controller": {
-          "doc": {
-            "lines": [
+          "documentation": {
+            "description": [
               "Unknown Type"
             ]
           }
         },
         "dock": {
-          "types": [
-            "string"
-          ]
+          "_return_": { "types": ["string"] }
         },
         "enabled": {
-          "types": [
-            "boolean"
-          ]
+          "_return_": { "types": ["boolean"] }
         },
         "forceCursorVisible": {
-          "types": [
-            "boolean"
-          ]
+          "_return_": { "types": ["boolean"] }
         },
         "height": {
-          "doc": {
-            "lines": [
+          "documentation": {
+            "description": [
               "The height of the UI element. (In pixels)"
             ]
           },
-          "types": [
-            "boolean"
-          ]
+          "_return_": { "types": ["number"] }
         },
         "hscroll": {
-          "doc": {
-            "lines": [
+          "documentation": {
+            "description": [
               "Horizontal Scrollbar."
             ]
           },
-          "types": [
-            "ISScrollBar"
-          ]
+          "_return_": { "types": ["ISScrollBar"] }
         },
         "ID": {
-          "doc": {
-            "lines": [
+          "documentation": {
+            "description": [
               "The internal ID of the UI element."
             ]
           },
-          "types": [
-            "number"
-          ]
+          "_return_": { "types": ["number"] }
         },
         "IDMax": {
-          "doc": {
-            "lines": [
+          "documentation": {
+            "description": [
               "A counter for assigning to new UI elements."
             ]
           },
-          "types": [
-            "number"
-          ]
+          "_return_": { "types": ["number"] }
         },
         "javaObject": {
-          "doc": {
-            "lines": [
+          "documentation": {
+            "description": [
               "The Java instance of the UI element.",
               "",
               "This is used to communicate with the game's UI engine."
             ]
           },
-          "types": [
-            "PipeWrench.UIElement"
-          ]
+          "_return_": { "types": ["PipeWrench.UIElement"] }
         },
         "joyfocus": {
-          "doc": {
-            "lines": [
+          "documentation": {
+            "description": [
               "Some kind of Joypad data."
             ]
           }
         },
         "minimumHeight": {
-          "doc": {
-            "lines": [
+          "documentation": {
+            "description": [
               "The minimum height of the UI element. (In pixels)"
             ]
           },
-          "types": [
-            "number"
-          ]
+          "_return_": { "types": ["number"] }
         },
         "minimumWidth": {
-          "doc": {
-            "lines": [
+          "documentation": {
+            "description": [
               "The minimum width of the UI element. (In pixels)"
             ]
           },
-          "types": [
-            "number"
-          ]
+          "_return_": { "types": ["number"] }
         },
         "onMouseDoubleClick": {
-          "doc": {
-            "lines": [
+          "documentation": {
+            "description": [
               "A callback function for double clicking."
             ]
           }
         },
         "removed": {
-          "doc": {
-            "lines": [
+          "documentation": {
+            "description": [
               "True if the UI element is removed from the UI manager."
             ]
           },
-          "types": [
-            "boolean"
-          ]
+          "_return_": { "types": ["boolean"] }
         },
         "scrollwidth": {
-          "types": [
-            "number"
-          ]
+          "_return_": { "types": ["number"] }
         },
         "target": {
-          "doc": {
-            "lines": [
+          "documentation": {
+            "description": [
               "Related to 'onMouseDoubleClick'."
             ]
           }
         },
         "vscroll": {
-          "doc": {
-            "lines": [
+          "documentation": {
+            "description": [
               "Vertical Scrollbar."
             ]
           },
-          "types": [
-            "ISScrollBar"
-          ]
+          "_return_": { "types": ["ISScrollBar"] }
         },
         "wantKeyEvents": {
-          "types": [
-            "boolean"
-          ]
+          "_return_": { "types": ["boolean"] }
         },
         "width": {
-          "doc": {
-            "lines": [
+          "documentation": {
+            "description": [
               "The width of the UI element. (In pixels)"
             ]
           },
-          "types": [
-            "number"
-          ]
+          "_return_": { "types": ["number"] }
         },
         "x": {
-          "doc": {
-            "lines": [
+          "documentation": {
+            "description": [
               "The x coordinate on the screen. (In pixels)"
             ]
           },
-          "types": [
-            "number"
-          ]
+          "_return_": { "types": ["number"] }
         },
         "y": {
-          "doc": {
-            "lines": [
+          "documentation": {
+            "description": [
               "The y coordinate on the screen. (In pixels)"
             ]
           },
-          "types": [
-            "number"
-          ]
+          "_return_": { "types": ["number"] }
         }
       },
       "methods": {
         "addChild": {
-          "doc": {
-            "lines": [
+          "documentation": {
+            "description": [
               "Adds a child UI element to this UI element."
             ]
           },
-          "params": [
+          "parameters": [
             {
-              "doc": {
-                "lines": [
+              "documentation": {
+                "description": [
                   "The UI element to add as a child to this UI element."
                 ]
               },
@@ -225,23 +181,23 @@
               ]
             }
           ],
-          "returns": {
+          "_return_": {
             "types": [
               "void"
             ],
-            "applyUnknownType": false
+            "wrapWildcardType": false
           }
         },
         "addScrollBars": {
-          "doc": {
-            "lines": [
+          "documentation": {
+            "description": [
               "Adds a vertical ISScrollBar to the UI element."
             ]
           },
-          "params": [
+          "parameters": [
             {
-              "doc": {
-                "lines": [
+              "documentation": {
+                "description": [
                   "If true, a horizontal ISScrollBar is initialized as well."
                 ]
               },
@@ -251,39 +207,39 @@
               ]
             }
           ],
-          "returns": {
+          "_return_": {
             "types": [
               "void"
             ],
-            "applyUnknownType": false
+            "wrapWildcardType": false
           }
         },
         "addToUIManager": {
-          "doc": {
-            "lines": [
+          "documentation": {
+            "description": [
               "Adds this UI element to the UI manager for the game.",
               "",
               "(NOTE: This means that this element is a root element with no parent)"
             ]
           },
-          "returns": {
+          "_return_": {
             "types": [
               "void"
             ],
-            "applyUnknownType": false
+            "wrapWildcardType": false
           }
         }
       },
       "_constructor_": {
-        "doc": {
-          "lines": [
+        "documentation": {
+          "description": [
             "Example description."
           ]
         },
-        "params": [
+        "parameters": [
           {
-            "doc": {
-              "lines": [
+            "documentation": {
+              "description": [
                 "The x coordinate on the screen. (In pixels)"
               ]
             },
@@ -293,8 +249,8 @@
             ]
           },
           {
-            "doc": {
-              "lines": [
+            "documentation": {
+              "description": [
                 "The y coordinate on the screen. (In pixels)"
               ]
             },
@@ -304,8 +260,8 @@
             ]
           },
           {
-            "doc": {
-              "lines": [
+            "documentation": {
+              "description": [
                 "The width of the UI element. (In pixels)"
               ]
             },
@@ -315,8 +271,8 @@
             ]
           },
           {
-            "doc": {
-              "lines": [
+            "documentation": {
+              "description": [
                 "The height of the UI element. (In pixels)"
               ]
             },
@@ -327,8 +283,8 @@
           }
         ]
       },
-      "doc": {
-        "lines": [
+      "documentation": {
+        "description": [
           "**ISUIElement** is the base UI class in the Project Zomboid Lua codebase."
         ],
         "authors": [
