@@ -4,19 +4,39 @@
     "ISUIElement": {
       "fields": {
         "anchorBottom": {
-          "_return_": { "types": ["boolean"] }
+          "_return_": {
+            "types": [
+              "boolean"
+            ]
+          }
         },
         "anchorLeft": {
-          "_return_": { "types": ["boolean"] }
+          "_return_": {
+            "types": [
+              "boolean"
+            ]
+          }
         },
         "anchorRight": {
-          "_return_": { "types": ["boolean"] }
+          "_return_": {
+            "types": [
+              "boolean"
+            ]
+          }
         },
         "anchorTop": {
-          "_return_": { "types": ["boolean"] }
+          "_return_": {
+            "types": [
+              "boolean"
+            ]
+          }
         },
         "children": {
-          "_return_": { "types": ["{[id: string]: ISUIElement}"] }
+          "_return_": {
+            "types": [
+              "{[id: string]: ISUIElement}"
+            ]
+          }
         },
         "controller": {
           "documentation": {
@@ -26,13 +46,25 @@
           }
         },
         "dock": {
-          "_return_": { "types": ["string"] }
+          "_return_": {
+            "types": [
+              "string"
+            ]
+          }
         },
         "enabled": {
-          "_return_": { "types": ["boolean"] }
+          "_return_": {
+            "types": [
+              "boolean"
+            ]
+          }
         },
         "forceCursorVisible": {
-          "_return_": { "types": ["boolean"] }
+          "_return_": {
+            "types": [
+              "boolean"
+            ]
+          }
         },
         "height": {
           "documentation": {
@@ -40,7 +72,11 @@
               "The height of the UI element. (In pixels)"
             ]
           },
-          "_return_": { "types": ["number"] }
+          "_return_": {
+            "types": [
+              "number"
+            ]
+          }
         },
         "hscroll": {
           "documentation": {
@@ -48,7 +84,11 @@
               "Horizontal Scrollbar."
             ]
           },
-          "_return_": { "types": ["ISScrollBar"] }
+          "_return_": {
+            "types": [
+              "ISScrollBar"
+            ]
+          }
         },
         "ID": {
           "documentation": {
@@ -56,7 +96,11 @@
               "The internal ID of the UI element."
             ]
           },
-          "_return_": { "types": ["number"] }
+          "_return_": {
+            "types": [
+              "number"
+            ]
+          }
         },
         "IDMax": {
           "documentation": {
@@ -64,7 +108,11 @@
               "A counter for assigning to new UI elements."
             ]
           },
-          "_return_": { "types": ["number"] }
+          "_return_": {
+            "types": [
+              "number"
+            ]
+          }
         },
         "javaObject": {
           "documentation": {
@@ -74,7 +122,11 @@
               "This is used to communicate with the game's UI engine."
             ]
           },
-          "_return_": { "types": ["PipeWrench.UIElement"] }
+          "_return_": {
+            "types": [
+              "PipeWrench.UIElement"
+            ]
+          }
         },
         "joyfocus": {
           "documentation": {
@@ -89,7 +141,11 @@
               "The minimum height of the UI element. (In pixels)"
             ]
           },
-          "_return_": { "types": ["number"] }
+          "_return_": {
+            "types": [
+              "number"
+            ]
+          }
         },
         "minimumWidth": {
           "documentation": {
@@ -97,7 +153,11 @@
               "The minimum width of the UI element. (In pixels)"
             ]
           },
-          "_return_": { "types": ["number"] }
+          "_return_": {
+            "types": [
+              "number"
+            ]
+          }
         },
         "onMouseDoubleClick": {
           "documentation": {
@@ -112,10 +172,18 @@
               "True if the UI element is removed from the UI manager."
             ]
           },
-          "_return_": { "types": ["boolean"] }
+          "_return_": {
+            "types": [
+              "boolean"
+            ]
+          }
         },
         "scrollwidth": {
-          "_return_": { "types": ["number"] }
+          "_return_": {
+            "types": [
+              "number"
+            ]
+          }
         },
         "target": {
           "documentation": {
@@ -130,10 +198,18 @@
               "Vertical Scrollbar."
             ]
           },
-          "_return_": { "types": ["ISScrollBar"] }
+          "_return_": {
+            "types": [
+              "ISScrollBar"
+            ]
+          }
         },
         "wantKeyEvents": {
-          "_return_": { "types": ["boolean"] }
+          "_return_": {
+            "types": [
+              "boolean"
+            ]
+          }
         },
         "width": {
           "documentation": {
@@ -141,7 +217,11 @@
               "The width of the UI element. (In pixels)"
             ]
           },
-          "_return_": { "types": ["number"] }
+          "_return_": {
+            "types": [
+              "number"
+            ]
+          }
         },
         "x": {
           "documentation": {
@@ -149,7 +229,11 @@
               "The x coordinate on the screen. (In pixels)"
             ]
           },
-          "_return_": { "types": ["number"] }
+          "_return_": {
+            "types": [
+              "number"
+            ]
+          }
         },
         "y": {
           "documentation": {
@@ -157,7 +241,11 @@
               "The y coordinate on the screen. (In pixels)"
             ]
           },
-          "_return_": { "types": ["number"] }
+          "_return_": {
+            "types": [
+              "number"
+            ]
+          }
         }
       },
       "methods": {
